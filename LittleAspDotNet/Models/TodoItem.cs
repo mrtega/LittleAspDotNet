@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LittleAspDotNet.Models
 {
-    public class TodoItems
+    public class TodoItem
     {
         public Guid Id { get; set; }
         public bool IsDone { get; set; }

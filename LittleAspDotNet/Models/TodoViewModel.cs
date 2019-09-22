@@ -7,6 +7,6 @@ namespace LittleAspDotNet.Models
 {
     public class TodoViewModel
     {
-        public TodoItems[] Items { get; set; }
+        public TodoItem[] Items { get; set; }
     }
 }

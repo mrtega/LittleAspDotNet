@@ -5,8 +5,8 @@ using LittleAspDotNet.Models;
 
 namespace LittleAspDotNet.Services
 {
-    interface ITodoItemService
+    public interface ITodoItemService
     {
-        Task<TodoItems[]> GetIncompleteItemsAsync();
+        Task<TodoItem[]> GetIncompleteItemsAsync();
     }
 }
